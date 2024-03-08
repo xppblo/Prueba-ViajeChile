@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-dark {
+    background-color: #000000;
+}
+
+.bg-lightblue{
+    background-color: #00C9F2;
+}
