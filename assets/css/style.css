@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: "Raleway", sans-serif;
 }
 
 .bg-dark {
@@ -9,4 +10,10 @@
 
 .bg-lightblue{
     background-color: #00C9F2;
+    color: #FFFFFF;   
 }
+
+.color-letters {
+    color: #FFFFFF;
+}
+
