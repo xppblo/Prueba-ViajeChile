@@ -4,6 +4,10 @@
     font-family: "Raleway", sans-serif;
 }
 
+section[id]{
+    scroll-margin-top: 65px;
+}
+
 .bg-color-dark {
     background-color: black;
 }
