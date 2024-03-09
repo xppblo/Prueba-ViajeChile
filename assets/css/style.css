@@ -4,8 +4,8 @@
     font-family: "Raleway", sans-serif;
 }
 
-.bg-dark {
-    background-color: #000000;
+.bg-color-dark {
+    background-color: black;
 }
 
 .bg-lightblue{
@@ -15,5 +15,15 @@
 
 .color-letters {
     color: #FFFFFF;
+}
+
+.navbar {
+    transition: all 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+
 }
 
