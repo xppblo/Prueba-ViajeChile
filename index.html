@@ -323,27 +323,18 @@
             <div class="container">
                 <h2 class="text-center color-letters py-2">CONTACTO</h2>
                 <hr class="color-letters border-2" />
-                <form class="color-letters">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label"
-                            >Correo Electrónico</label
-                        >
-                        <input
-                            type="email"
-                            class="form-control"
-                            id="exampleInputEmail1"
-                            aria-describedby="emailHelp"
-                        />
-                        <div id="emailHelp" class="form-text"></div>
-                    </div>
+                <form class="color-letters">                    
                     <div class="mb-3">
                         <label for="exampleInputNombre" class="form-label"
                             >Nombre</label
                         >
+                        
                         <input
                             type="text"
                             class="form-control"
                             id="exampleInputNombre"
+                            data-bs-toggle="tooltip" data-bs-title="Nombre a escribir"
+                            data-bs-custom-class="custom-tooltip"
                         />
                     </div>
                     <div class="mb-3">
@@ -354,21 +345,28 @@
                             type="text"
                             class="form-control"
                             id="exampleInputAsunto"
+                            data-bs-toggle="tooltip" data-bs-title="Asunto a escribir"
+                            data-bs-custom-class="custom-tooltip"
                         />
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputMensaje" class="form-label"
                             >Mensaje</label
                         >
-                        <input
-                            type="text"
-                            class="form-control"
-                            id="exampleInputMensaje"
-                            style="height: 100px"
-                        />
+                        <div class="form-floating">
+                            <textarea
+                                class="form-control"
+                                placeholder=""
+                                id="floatingTextarea2"
+                                style="height: 100px"
+                                data-bs-toggle="tooltip" data-bs-title="Mensaje a escribir"
+                                data-bs-custom-class="custom-tooltip"
+                            ></textarea>
+                        </div>
                     </div>
 
-                    <button type="submit" class="btn btn-light bg-lightblue">
+                    <button type="submit" class="btn btn-info bg-lightblue" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Enviar comentarios"
+                    data-bs-custom-class="custom-tooltip">
                         Enviar
                     </button>
                 </form>
@@ -424,7 +422,11 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"
+        ></script>
         <script>
             const navEl = document.querySelector(".navbar");
 
