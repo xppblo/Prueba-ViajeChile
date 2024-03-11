@@ -328,10 +328,13 @@
                         <label for="exampleInputNombre" class="form-label"
                             >Nombre</label
                         >
+                        
                         <input
                             type="text"
                             class="form-control"
                             id="exampleInputNombre"
+                            data-bs-toggle="tooltip" data-bs-title="Nombre a escribir"
+                            data-bs-custom-class="custom-tooltip"
                         />
                     </div>
                     <div class="mb-3">
@@ -342,6 +345,8 @@
                             type="text"
                             class="form-control"
                             id="exampleInputAsunto"
+                            data-bs-toggle="tooltip" data-bs-title="Asunto a escribir"
+                            data-bs-custom-class="custom-tooltip"
                         />
                     </div>
                     <div class="mb-3">
@@ -354,11 +359,14 @@
                                 placeholder=""
                                 id="floatingTextarea2"
                                 style="height: 100px"
+                                data-bs-toggle="tooltip" data-bs-title="Mensaje a escribir"
+                                data-bs-custom-class="custom-tooltip"
                             ></textarea>
                         </div>
                     </div>
 
-                    <button type="submit" class="btn btn-info bg-lightblue">
+                    <button type="submit" class="btn btn-info bg-lightblue" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Enviar comentarios"
+                    data-bs-custom-class="custom-tooltip">
                         Enviar
                     </button>
                 </form>
